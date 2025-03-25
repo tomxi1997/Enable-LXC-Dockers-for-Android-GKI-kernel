@@ -1,6 +1,7 @@
 
-关于gki-defconfig，建议手动编辑，不要用通用配置。
+关于gki-defconfig，建议手动编辑，或make menuconfig进行标准化配置，不要用通用配置
 要添加的
+
 CONFIG_SYSVIPC=y
 
 CONFIG_POSIX_MQUEUE=y
@@ -27,6 +28,7 @@ CONFIG_LTO_CLANG_THIN=y
 
 
 要删除的配置，直接找到删
+
 CONFIG_PID_NS is not set
 
 CONFIG_LTO_CLANG_FULL=y
